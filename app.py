@@ -4,7 +4,7 @@ import joblib
 from datetime import datetime, timedelta
 from dateutil.relativedelta import relativedelta
 
-model = joblib.load('models\Decision Tree_model.pkl')
+model = joblib.load('models/Decision Tree_model.pkl')
 
 chest_pain_types = {0: 'Nyeri Dada Tipikal', 1: 'Nyeri Dada Atipikal', 2: 'Nyeri Non-Anginal', 3: 'Asimtomatik'}
 resting_ecg_types = {0: 'Normal', 1: 'Abnormalitas Gelombang ST-T', 2: 'Hipertrofi Ventrikel Kiri'}
